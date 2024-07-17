@@ -1,0 +1,23 @@
+r1=int(input('Enter real part of c1: '))
+i1=int(input('Enter img part of c1: '))
+r2=int(input('Enter real part of c2: '))
+i2=int(input('Enter img part of c2: '))
+c1=complex(r1,i1)
+c2=complex(r2,i2)
+#Sum of complex numbers
+sum=c1+c2
+product=c1*c2
+#Product of complex numbers
+print("complex number1: ",c1)
+print("complex number2: ",c2)
+print("Sum= ",sum)
+print("product= ",product)
+OUTPUT:
+Enter real part of c1: 2
+Enter img part of c1: 4
+Enter real part of c2: 6
+Enter img part of c2: 8
+complex number1:  (2+4j)
+complex number2:  (6+8j)
+Sum=  (8+12j)
+product=  (-20+40j)
