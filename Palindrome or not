@@ -1,0 +1,17 @@
+n=int(input('Enter a number '))
+n_str=str(n)
+start=0
+end=len(n_str)-1
+while start<end:
+  if n_str[start]!=n_str[end]:
+    print(f"{n} is not a palindrome")
+    break
+  start+=1
+  end-=1
+else:
+  print(f"{n} is a palindrome")
+OUTPUT:
+Enter a number 121
+121 is a palindrome
+Enter a number 120
+120 is not a palindrome
