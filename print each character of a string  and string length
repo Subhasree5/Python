@@ -1,0 +1,18 @@
+string=input('Enter a string: ')
+for char in string:
+  print(char)
+print ("length of string= ",len(string))
+OUTPUT:
+Enter a string: Hello
+H
+e
+l
+l
+o
+length of string=  5
+Enter a string: guys
+g
+u
+y
+s
+length of string=  4
