@@ -1,0 +1,18 @@
+l=[]
+n=int(input("ENter no.of elements in list: "))
+for i in range(n):
+	ele=int(input("Enter the element: "))
+	l.append(ele)
+print("Before List: ",l)	
+if len(l)>1:
+	l[0],l[n-1]=l[n-1],l[0]
+print("After interchanging first and last element of list: ",l)
+Output:
+ENter no.of elements in list: 5
+Enter the element: 1
+Enter the element: 2
+Enter the element: 3
+Enter the element: 4
+Enter the element: 5
+Before List:  [1, 2, 3, 4, 5]
+After interchanging first and last element of list:  [5, 2, 3, 4, 1]
