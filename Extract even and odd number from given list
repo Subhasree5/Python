@@ -1,0 +1,25 @@
+l=[]
+n=int(input("ENter no.of elements in list: "))
+for i in range(n):
+	ele=int(input("Enter the element: "))
+	l.append(ele)
+print("List= ",l)
+even=[]
+odd=[]
+for i in l:
+	if i%2==0:
+		even.append(i)
+	else:
+		odd.append(i)
+print("Even: ",even)
+print("Odd: ",odd)		
+
+Output:
+ENter no.of elements in list: 4
+Enter the element: 12
+Enter the element: 23
+Enter the element: 46
+Enter the element: 9
+List=  [12, 23, 46, 9]
+Even:  [12, 46]
+Odd:  [23, 9]
