@@ -1,0 +1,9 @@
+l=[1,3,2,3,3,4,5,3]
+print("Before list: ",l)
+ele=3
+if ele in l:
+	l.remove(ele)
+print("After removing first occurance element: ",l)
+output:
+Before list:  [1, 3, 2, 3, 3, 4, 5, 3]
+After removing first occurance element:  [1, 2, 3, 3, 4, 5, 3]
