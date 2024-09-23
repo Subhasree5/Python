@@ -1,0 +1,6 @@
+l=[3,4,-6,0,9]
+print("Position of minimum element ",l.index(min(l)))
+print("Position of maximum element ",l.index(max(l)))
+Output
+Position of minimum element  2
+Position of maximum element  4
