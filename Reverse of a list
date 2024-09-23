@@ -1,0 +1,16 @@
+l=[]
+n=int(input("ENter no.of elements in list: "))
+for i in range(n):
+	ele=int(input("Enter the element: "))
+	l.append(ele)
+print("Before reversing: ",l)	
+#Method1
+reversed=[]
+for i in l:
+	reversed.insert(0,i)
+print("After reversing: ",reversed)	
+#method2
+print("After reversing using slicing: ",l[::-1])
+#Method3
+l.reverse()
+print("After reversing using method: ",l)
